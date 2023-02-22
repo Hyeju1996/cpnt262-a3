@@ -11,4 +11,4 @@ what I've noticed to see all we did in class was so simple.
 
 ## helps me:
 class of dayily code 
-(https://github.com/sait-wbdv/dailies-w23/blob/main/2023-02-17-conditional-code/03a-calculator-elseif-else/js/app.js);
+[daily code](https://github.com/sait-wbdv/dailies-w23/blob/main/2023-02-17-conditional-code/03a-calculator-elseif-else/js/app.js);
