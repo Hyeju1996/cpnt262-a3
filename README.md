@@ -1,7 +1,6 @@
 # CPNT 262 - vanilla Javascript
 ## Assignment3 - If This, Then That
 - Author: Hyeju Hong
-- live demo ()
 ## artibute:
 What was I strugling about I thought I need to make buttons loops with answer 
 ```
