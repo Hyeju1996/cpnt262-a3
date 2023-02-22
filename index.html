@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starter Code: If This, Then That</title>
+  <!-- Install fonts: ignore this code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Fauna+One&display=swap" rel="stylesheet">
+
+  <!-- Make it pretty: ignore this code -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Add Javascript: modify this file -->
+  <script src="js/app.js" type="module"></script>
+</head>
+<body>
+  <main>
+    <h1>Starter Code: If This, Then That</h1>
+    <p>Modify the Javascript in this project to output a meal recommendation based on the submitted options.</p>
+    <p>See <a href="https://sait-wbdv-w23.netlify.app/courses/cpnt-262/assessments/assignment-3">Assignment 3</a> and the comments in the starter code for further hints and instructions.</p>
+    <form action="#">
+      <fieldset>
+        <legend>Enter your answers for a meal recommendation:</legend>
+        <label for="day">What day of the week?</label>
+        <select name="day" id="day">
+          <option value="">Select One</option>
+          <option value="mon">Monday</option>
+          <option value="tue">Tuesday</option>
+          <option value="wed">Wednesday</option>
+          <option value="thu">Thursday</option>
+          <option value="fri">Friday</option>
+          <option value="sat">Saturday</option>
+          <option value="sun">Sunday</option>
+        </select>
+        <label for="meal">What meal of the day?</label>
+        <select name="meal" id="meal">
+          <option value="">Select One</option>
+          <option value="breakfast">Breakfast</option>
+          <option value="lunch">Lunch</option>
+          <option value="dinner">Dinner</option>
+        </select>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+    <h2>You should eat: <span class="output">[answer here]</span></h2>
+  </main>
+</body>
+</html>
